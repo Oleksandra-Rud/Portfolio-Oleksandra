@@ -1,2 +1,54 @@
-h1 {color:blue; font-family: 'Roboto', sans-serif;}
-body {background-color: azure;}
+h1 {color:#FFFFFF;
+     font-family: 'Roboto', sans-serif;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 72px;
+     line-height: 84px;
+     text-align: center;
+     letter-spacing: 0.1em;}
+
+     h2 {font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    margin-top: 180px;}
+
+        h3 {font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            /* or 167% */
+          text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 50px;
+            }
+body {background-color: #282323}
+
+.btn-branding {text-decoration: none; 
+    background-color: #FFFFFF;
+    color:#272142;
+    text-align: center;
+    padding: 18px 30px;
+    border-radius: 50px;
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+
+} 
+.button-cntct {display: block;
+    text-align: center;
+margin: 0 auto;
+}
