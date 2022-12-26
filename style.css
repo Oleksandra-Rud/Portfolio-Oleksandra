@@ -6,9 +6,24 @@ h1 {color:#FFFFFF;
      font-size: 72px;
      line-height: 84px;
      text-align: center;
-     letter-spacing: 0.1em;}
+     letter-spacing: 0.1em;
+    margin: 30px;}
 
      h2 {font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 65px;
+        /* identical to box height */
+        
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        
+        color:#F65282;
+    padding-top: 50px;}
+
+
+     h4 {font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 24px;
@@ -17,7 +32,7 @@ h1 {color:#FFFFFF;
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color: #FFFFFF;
-    margin-top: 180px;}
+    }
 
         h3 {font-family: 'Roboto';
             font-style: normal;
@@ -26,10 +41,22 @@ h1 {color:#FFFFFF;
             line-height: 30px;
             /* or 167% */
           text-align: center;
-        color: #FFFFFF;
+          color:#9bd5ca;
         margin-bottom: 50px;
             }
-body {background-color: #282323}
+body {background-color: #202020}
+p {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    
+    
+    color: #FFFFFF;
+text-align: left;}
+
+
 
 .btn-branding {text-decoration: none; 
     background-color: #FFFFFF;
@@ -52,3 +79,21 @@ text-transform: uppercase;
     text-align: center;
 margin: 0 auto;
 }
+.hero {padding-top: 180px;
+    padding-bottom: 180px;
+background-color: #282323;}
+.content {padding-top: 80px }
+
+img {margin: 20px}
+
+.col {margin-top: 40px;}
+
+@media (max-width: 560px) {
+    h1 {
+      font-size: 48px;
+    
+    }
+  img {max-width: 320px;}
+   h3, p {padding-left: 10px;
+    padding-right:10px}
+  }
