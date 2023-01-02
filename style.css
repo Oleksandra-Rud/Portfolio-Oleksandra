@@ -14,13 +14,10 @@ h1 {color:#FFFFFF;
         font-weight: 700;
         font-size: 54px;
         line-height: 65px;
-        /* identical to box height */
-        
         letter-spacing: 0.1em;
         text-transform: uppercase;
-        
         color:#F65282;
-    padding-top: 50px;}
+         padding-top: 50px;}
 
 
      h4 {font-family: 'Roboto';
@@ -36,31 +33,44 @@ h1 {color:#FFFFFF;
 
         h3 {font-family: 'Roboto';
             font-style: normal;
-            font-weight: 400;
+            font-weight: 500;
             font-size: 18px;
             line-height: 30px;
             /* or 167% */
-          text-align: center;
-          color:#9bd5ca;
-        margin-bottom: 50px;
+            text-align: center;
+            color:#e0c6bf;
+            margin-bottom: 50px;
             }
-body {background-color: #202020}
+body {background-color: #6f6363}
 p {font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    /* or 167% */
-    
-    
     color: #FFFFFF;
-text-align: left;}
+    text-align: left;}
 
 
 
 .btn-branding {text-decoration: none; 
     background-color: #FFFFFF;
-    color:#272142;
+    color:#282323;
+    text-align: center;
+    padding: 18px 30px;
+    border-radius: 50px;
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+} 
+.btn-branding:hover {cursor: pointer;
+    background-color: #F65282;
+    color: white;}
+.btn-viewing {text-decoration: none; 
+    background-color: #282323;
+    color: white;
     text-align: center;
     padding: 18px 30px;
     border-radius: 50px;
@@ -69,24 +79,59 @@ font-weight: 700;
 font-size: 14px;
 line-height: 17px;
 /* identical to box height */
-
 letter-spacing: 0.1em;
 text-transform: uppercase;
+}  
+
+.btn-viewing:hover {cursor: pointer;
+background-color: #F65282;
+color: white;}
 
 
-} 
+
 .button-cntct {display: block;
     text-align: center;
 margin: 0 auto;
 }
+
+
 .hero {padding-top: 180px;
     padding-bottom: 180px;
 background-color: #282323;}
+
+.about {padding-top: 180px;
+    padding-bottom: 180px;
+    
+}
+
+
 .content {padding-top: 80px }
 
-img {margin: 10px}
+img {margin: 10px;
+border-radius: 5px;
+}
+.portrait { text-align: center;
+margin: 0 auto;
+display: block;}
+
 
 .col {margin-top: 40px;}
+
+
+h5 {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    
+    color: #F65282;
+    text-align: left;}
+
+.about h1 {font-size: 42px;
+    text-align: left;
+line-height: 50px;}
+
 
 
 
@@ -96,7 +141,9 @@ img {margin: 10px}
     
     }
     .hero {padding-top: 100px; padding-bottom: 100px;}
-  img {max-width: 320px;}
+    .about {padding-top: 100px; padding-bottom: 100px;}
+    
+    img {max-width: 320px;}
    h3, p {padding-left: 10px;
     padding-right:10px}
     h2 {padding-top: 10px;}
@@ -109,5 +156,7 @@ img {margin: 10px}
   img {max-width: 300px;}
    h3, p {padding-left: 10px;
     padding-right:10px}
-    h2 {padding-top: 20px;}
+    h2 {padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;}
   }
