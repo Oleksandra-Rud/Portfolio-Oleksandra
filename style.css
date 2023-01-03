@@ -17,7 +17,9 @@ h1 {color:#FFFFFF;
         letter-spacing: 0.1em;
         text-transform: uppercase;
         color:#F65282;
-         padding-top: 50px;}
+        padding-top: 10px;
+        margin-bottom: 0px;
+    }
 
 
      h4 {font-family: 'Roboto';
@@ -38,7 +40,7 @@ h1 {color:#FFFFFF;
             line-height: 30px;
             /* or 167% */
             text-align: center;
-            color:#e0c6bf;
+          color: #FFFFFF;
             margin-bottom: 50px;
             }
 body {background-color: #6f6363}
@@ -50,11 +52,18 @@ p {font-family: 'Roboto';
     color: #FFFFFF;
     text-align: left;}
 
-
+ul {display: inline;
+    padding-top: 24px;
+}
+li {text-decoration: none; display: inline;
+    margin-left: 10px;;
+}
+.nav_link {text-decoration: none;}
+.nav_link:hover, .active {color:#F65282}
 
 .btn-branding {text-decoration: none; 
     background-color: #FFFFFF;
-    color:#282323;
+    color:#261d1d;
     text-align: center;
     padding: 18px 30px;
     border-radius: 50px;
@@ -69,7 +78,7 @@ text-transform: uppercase;
     background-color: #F65282;
     color: white;}
 .btn-viewing {text-decoration: none; 
-    background-color: #282323;
+    background-color: #261d1d;
     color: white;
     text-align: center;
     padding: 18px 30px;
@@ -97,10 +106,10 @@ margin: 0 auto;
 
 .hero {padding-top: 180px;
     padding-bottom: 180px;
-background-color: #282323;}
+background-color: #261d1d;}
 
-.pages {padding-top: 180px;
-    padding-bottom: 180px;
+.pages {padding-top: 120px;
+    padding-bottom: 120px;
     
 }
 
@@ -117,7 +126,9 @@ display: block;}
 
 .works { text-align: center;
     margin: 0 auto;
-    display: block;}
+    display: block;
+    padding: 10px;
+    margin-bottom: 20px;}
 
 .col {margin-top: 40px;}
 
@@ -126,7 +137,7 @@ h5 {font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 32px;
     letter-spacing: 0.1em;
     
     color: #F65282;
@@ -137,7 +148,7 @@ h5 {font-family: 'Roboto';
 line-height: 50px;
 margin-left: 0px;}
 
-.works-h5 {text-align: center;}
+.works-h5 {text-align: center; }
 
 a {color: #FFFFFF;}
 
@@ -149,22 +160,48 @@ a {color: #FFFFFF;}
     }
     .pages h1 {font-size: 32px; line-height: 35px;}
     .hero {padding-top: 80px; padding-bottom: 100px;}
-    .pages {padding-top: 80px; padding-bottom: 100px;}
+    .pages {padding-top: 60px; padding-bottom: 60px;}
     
-    img {max-width: 320px;}
+    img {max-width: 340px;}
    h3, p {padding-left: 10px;
     padding-right:10px}
-    h2 {padding-top: 10px;}
+    h2 {padding-top: 10px; font-size: 36px;}
   }
+  h5 {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;}
+
+
   @media (max-width: 530px) {
     h1 {
-      font-size: 44px;
+      font-size: 40px;
     
     }
-  img {max-width: 280px;}
+    .pages {padding-top: 40px; padding-bottom: 40px;}
+  img {max-width: 300px;}
    h3, p {padding-left: 10px;
     padding-right:10px}
-    h2 {padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;}
+    h2 {padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 32px;}
+    p {font-size: 16px;}
+  }
+
+  @media (max-width: 300px) {
+    h1 {
+      font-size: 34px;
+    
+    }
+    .pages {padding-top: 30px; padding-bottom: 30px;}
+  img {max-width: 220px;}
+   h3, p {padding-left: 5px;
+    padding-right:5px}
+    h2 {padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 24px;}
+    p {font-size: 16px;}
   }
